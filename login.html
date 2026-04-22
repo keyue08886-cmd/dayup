@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录 - 英语打卡</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-card">
+            <div class="login-logo">📚</div>
+            <h1 class="login-title">英语打卡</h1>
+            <p class="login-subtitle">每天进步一点点</p>
+            
+            <form class="login-form">
+                <div class="form-group">
+                    <label class="form-label">用户名</label>
+                    <input type="text" name="username" class="form-input" placeholder="请输入用户名" required autocomplete="username">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">密码</label>
+                    <input type="password" name="password" class="form-input" placeholder="请输入密码" required autocomplete="current-password">
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block btn-lg">登录</button>
+            </form>
+            
+            <div style="margin-top: 24px; color: var(--text-light); font-size: 12px;">
+                <p>默认账号：</p>
+                <p>管理员：admin / admin123</p>
+                <p>用户：zhangsan / 123456</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="toast"></div>
+    
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
